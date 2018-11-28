@@ -9,6 +9,7 @@
     <PackageId>RhysAWilliams.Moq.FluentAssertions</PackageId>
     <PackageIconUrl></PackageIconUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/rhysawilliams2010/Moq.FluentAssertions/master/LICENSE</PackageLicenseUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
