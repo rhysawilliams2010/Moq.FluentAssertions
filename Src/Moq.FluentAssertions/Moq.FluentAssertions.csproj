@@ -7,6 +7,8 @@
     <Company>Rhys Williams</Company>
     <RepositoryUrl>https://github.com/rhysawilliams2010/Moq.FluentAssertions</RepositoryUrl>
     <PackageId>RhysAWilliams.Moq.FluentAssertions</PackageId>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/rhysawilliams2010/Moq.FluentAssertions/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -14,13 +16,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoFixture" Version="4.5.1" />
-    <PackageReference Include="FluentAssertions" Version="5.5.3" />
+    <PackageReference Include="AutoFixture" Version="[4,)" />
+    <PackageReference Include="FluentAssertions" Version="[5,)" />
+    <PackageReference Include="Moq" Version="[4,)" />
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Moq" Version="4.10.0" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.0.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
