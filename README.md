@@ -8,3 +8,8 @@ Use it like so:
 ```
   Mock.Of<MyService>.Setup(x=>x.DoSomething(It.Is(Equivalent.To<Something>(new {Value="Something"})));
 ```
+
+Install from [nuget](https://www.nuget.org/packages/RhysAWilliams.Moq.FluentAssertions/):
+```
+  Install-Package RhysAWilliams.Moq.FluentAssertions
+```
