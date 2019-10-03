@@ -14,7 +14,7 @@
     <PackageReference Include="AutoFixture" Version="[4,)" />
     <PackageReference Include="FluentAssertions" Version="[5,)" />
     <PackageReference Include="Moq" Version="[4,)" />
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.2">
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
